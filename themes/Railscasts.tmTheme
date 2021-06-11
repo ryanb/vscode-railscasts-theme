@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>Function (definition)</string>
 			<key>scope</key>
-			<string>entity.name.function, keyword.other.name-of-parameter.objc</string>
+			<string>meta.function.method, meta.definition.method, keyword.other.name-of-parameter.objc</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -77,7 +77,7 @@
 			<key>name</key>
 			<string>Class (definition)</string>
 			<key>scope</key>
-			<string>entity.name</string>
+			<string>entity.name.type, entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -101,13 +101,26 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable.language, variable.other, variable.other.constant.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#D0D0FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Property</string>
+			<key>scope</key>
+			<string>variable.other.property, variable.other.object.property</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -171,7 +184,7 @@
 				<string>#A5C261</string>
 			</dict>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>name</key>
 			<string>Library function</string>
 			<key>scope</key>
@@ -183,7 +196,7 @@
 				<key>foreground</key>
 				<string>#DA4939</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>Library type</string>
