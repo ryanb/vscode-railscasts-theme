@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./Railscasts.tmTheme",
+	"colors": {
+		"editor.background": "#282828",
+		"editorCursor.foreground": "#FFFFFF",
+		"editor.foreground": "#E6E1DC",
+		"editorWhitespace.foreground": "#404040",
+		"editor.lineHighlightBackground": "#333435",
+		"editor.selectionBackground": "#3D4456E0"
+	},
+	"name": "RailsCasts Theme"
+}

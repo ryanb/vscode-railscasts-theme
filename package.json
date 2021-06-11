@@ -1,0 +1,21 @@
+{
+    "name": "railscasts-theme",
+    "displayName": "RailsCasts Theme",
+    "description": "RailsCasts Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "RailsCasts Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/RailsCasts Theme-color-theme.json"
+            }
+        ]
+    }
+}
