@@ -75,6 +75,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Function (definition parameter)</string>
+			<key>scope</key>
+			<string>variable.parameter.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class (definition)</string>
 			<key>scope</key>
 			<string>entity.name.type, entity.other.inherited-class</string>
