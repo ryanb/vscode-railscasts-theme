@@ -2,7 +2,8 @@
     "name": "railscasts-theme",
     "displayName": "RailsCasts Theme",
     "description": "RailsCasts Theme",
-    "version": "0.0.1",
+    "icon": "images/railscasts_square.png",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.57.0"
     },
