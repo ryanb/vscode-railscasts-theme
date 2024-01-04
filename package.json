@@ -4,6 +4,10 @@
     "description": "RailsCasts Theme",
     "icon": "images/railscasts_square.png",
     "version": "1.0.0",
+    "publisher": "RyanBates",
+    "author": {
+        "name": "Ryan Bates"
+    },
     "engines": {
         "vscode": "^1.57.0"
     },
